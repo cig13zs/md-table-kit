@@ -7,7 +7,6 @@
     const lines = input.trim().split(/\r?\n/).filter(l => l.trim().length > 0);
     if (!lines.length) return [];
     
-    // Check if markdown table
     if (lines[0].includes('|')) {
       const rows = [];
       for (const line of lines) {
@@ -44,13 +43,11 @@
     const pad = (str, len) => (str + ' '.repeat(len)).slice(0, len);
     const result = [];
 
-    // Header
     const headerRow = rows[0] || [];
     const hCells = [];
     for (let i = 0; i < colCount; i++) hCells.push(pad(headerRow[i] || ('Col ' + (i + 1)), colWidths[i]));
     result.push('| ' + hCells.join(' | ') + ' |');
 
-    // Separator
     const sCells = [];
     for (let i = 0; i < colCount; i++) {
       const w = colWidths[i];
@@ -60,7 +57,6 @@
     }
     result.push('| ' + sCells.join(' | ') + ' |');
 
-    // Data rows
     for (let i = 1; i < rows.length; i++) {
       const r = rows[i];
       const dCells = [];
