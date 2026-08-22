@@ -1,4 +1,4 @@
-# Markdown Table Generator — Convert TSV & CSV to MD Tables
+# Markdown Table Generator | Convert TSV & CSV to MD Tables
 
 > Convert spreadsheet cells, TSV, and CSV into beautifully aligned GitHub Markdown tables online. Fast, clean formatting, and 100% private.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## ⚡ Key Features
+## Features
 
 - **100% Client-Side & Offline:** Pure vanilla JavaScript runtime. Zero network uploads, zero telemetry, zero analytics tracking.
 - **Instant Processing:** Zero dependencies or heavy frameworks for ultra-fast, lightweight execution.
@@ -19,13 +19,13 @@
 
 ---
 
-## 📖 How It Works
+## How it works
 
 Copy cells from Excel, Google Sheets, or paste CSV data. MD Table Kit converts the columns into aligned GitHub-flavored Markdown table syntax.
 
 ---
 
-## 🛠️ Offline Chrome Extension Installation
+## Install the extension
 
 1. Download or clone this repository:
    ```bash
@@ -38,7 +38,7 @@ Copy cells from Excel, Google Sheets, or paste CSV data. MD Table Kit converts t
 
 ---
 
-## 💡 Frequently Asked Questions (FAQ)
+## FAQ
 
 ### Is my data uploaded to any server?
 No. Everything executes locally inside your browser memory or extension sandbox. No telemetry, third-party scripts, or API requests are made.
@@ -53,7 +53,7 @@ const engine = require('./core');
 
 ---
 
-## 📄 License & Author
+## License and support
 
 - **Author:** [jju1s](https://github.com/cig13zs)
 - **License:** [MIT License](LICENSE)
