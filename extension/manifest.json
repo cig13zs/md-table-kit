@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Md-table-kit \u2014 Convert spreadsheet cells and TSV text i",
+  "name": "Md Table Kit",
   "version": "1.0.0",
   "description": "Convert spreadsheet cells and TSV text into perfectly aligned GitHub markdown tables offline.",
   "icons": {
@@ -11,6 +11,6 @@
   "permissions": [],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Md-table-kit"
+    "default_title": "Md Table Kit"
   }
 }
